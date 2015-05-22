@@ -1,7 +1,8 @@
-## Two functions are implemented, makeCacheMatrix and cacheSolve functions. 
-## makeCacheMatrix is a special "matrix" object that can cache its inverse and
-## provide operations to manipulate the object. 
-## ccheSolve computes the inverse of the matrix returned by makeChacheMatrix.
+## Two functions, makeCacheMatrix and cacheSolve are implemented.
+## makeCacheMatrix is a special "matrix" object that can cache its inverse and 
+## provides operations to manipulate the matrix through the operations. 
+## cacheSolve computes the inverse of the matrix returned by makeChacheMatrix.
+## Usage and Example: 
 ## mx is the original matrix
 ## my <- cacheSolve(makeCacheMatrix(mx))
 ## my matrix is the inverse of mx matrix. 
